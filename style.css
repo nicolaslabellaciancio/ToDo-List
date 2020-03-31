@@ -28,17 +28,19 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border: 4px solid var(--sec-color);
     border-radius: 5px;
     padding: 1em;
-    width: 60vw;
+    min-width: 40vw;
+    max-width: 60vw;
     margin: auto;
     background-color: rgb(39, 60, 117);
+    min-height: 50vh;
 }
 
 .container h2 {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .form {
@@ -83,7 +85,7 @@ h1 {
 .add-item:hover {
     color: rgb(25, 42, 86);
     background-color: var(--sec-color);
-    border-color: rgb(25, 42, 86);;
+    border-color: rgb(25, 42, 86);
 
 }
 
